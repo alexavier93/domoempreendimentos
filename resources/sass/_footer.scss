@@ -1,0 +1,36 @@
+#footer {
+    background-image: url('/assets/images/bg-footer.jpg');
+    color: $dark;
+    .footer-top {
+        .form-contato {
+            form {
+                input {
+                    font-size: 16px;
+                    line-height: 1em;
+                }
+                textarea {
+                    font-size: 16px;
+                    line-height: 1em;
+                }
+            }
+        }
+    }
+    .bottom-footer {
+        background: $primary;
+        padding: 10px 20px;
+        color: #fff;
+        height: 100%;
+        p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .copy {
+            float: left;
+            padding: 5px 0;
+        }
+        .dev {
+            float: right;
+            text-align: right;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $dark;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.cursor-zoom-in {
+    cursor: zoom-in;
+}
+
+.map {
+    iframe {
+        height: 350px !important;
+    }
+}
+
+.box-image-left {
+    box-shadow: -100px 100px 0 -65px $primary;
+}
+
+.box-image-right {
+    box-shadow: 100px 100px 0 -65px $primary;
+}
+
+.banner-page {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 350px;
+}
+
+.heading {
+    .outline-heading {
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        font-size: 3em;
+    }
+    h1 {
+        font-size: 4em;
+        font-weight: 900;
+        color: $primary;
+        line-height: 1px;
+    }
+}
+
+.swiper {
+    .swiper-pagination-bullet {
+        background: white;
+        opacity: 0.5;
+        width: 12px;
+        height: 12px;
+    }
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: white;
+    }
+}
